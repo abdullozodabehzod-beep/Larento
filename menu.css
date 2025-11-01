@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+/* header */
+header {
+    background: linear-gradient(90deg, rgb(13, 176, 197), rgb(10, 41, 212));
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    box-shadow: 0 4px 15px;
+}
+
+/* image */
+
+.larento-img{
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transform: rotate(-2deg);
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+}
+
+nav a{
+   cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    transition: color 0.3s;
+}
+
+/* animation */
+nav a::after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: aqua;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+.text-img-inside{
+    margin-top: -15%;
+    font-size: 70px;
+    color: chocolate;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    
+}
+
+.text-img-inside:hover{
+    opacity: 1;
+    font-size: 100px;
+}
+
+
+.img-menu{
+    text-align: center;
+}
+
+
+
+.text-big{
+    letter-spacing: 2px;
+    
+}
+
+.text-small{
+    font-size: 20px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.img-big{
+    width: 80%;
+    height: 800px;
+    margin-top: 30px;  
+    border-radius: 50px;
+    
+}
+
+.about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+
+.about1{
+        margin: 100px;
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(90deg, rgb(0, 183, 255), blue);
+        color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        border-radius: 10px;
+}
+
+.menu-header{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(0, 183, 255);
+    margin: 100px;
+    margin-top: 200px;
+}
+
+.food{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    
+
+}
+
+.food1{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://ferma-m2.ru/images/shop/recipe_image/crop_500h500_4.jpg);
+    border-radius: 50px;
+}
+
+
+#salad{
+
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#salad:hover{
+    font-size: 70px;
+}
+
+.food2{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://kalabasa.ru/wp-content/uploads/beef_tongue/10.jpg);
+    border-radius: 50px;
+    
+}
+
+#need-food{
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#need-food:hover{
+    font-size: 55px;
+}
+
+.food3{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://img.tsn.ua/cached/930/tsn-1358a5fc43e0be7be1f42d9d95137a9f/thumbs/1200x630/c3/29/367cfbb4454913340badfc6752f529c3.jpeg);
+    border-radius: 50px;
+}
+
+#drinks{
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#drinks:hover{
+    font-size: 70px;
+}
+
+.food-other{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 50px;
+    
+
+}
+
+
+.food4{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.patee.ru/r/x6/0a/16/01/960m.jpg);
+    border-radius: 50px;
+}
+
+#dessert{
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#dessert:hover{
+    font-size: 70px;
+}
+
+.food5{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://foodteor.ru/wp-content/uploads/2022/08/245.jpg);
+    border-radius: 50px;
+}
+
+#garnish{
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#garnish:hover{
+    font-size: 70px;
+}
+
+
+.food6{
+     width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://img.povar.ru/mobile/c1/ed/a8/81/russkii_sup-846183.JPG);
+    border-radius: 50px;
+}
+
+#soup{
+    color: rgb(212, 161, 18);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 350px;
+    transition: font-size 0.5s ease; 
+}
+
+#soup:hover{
+    font-size: 70px;
+}
+
+
+footer{
+    text-align: center;
+    opacity: 0.5;
+    margin: 80px;
+}
+
